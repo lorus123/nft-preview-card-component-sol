@@ -1,0 +1,129 @@
+@import "general";
+@import "variables";
+
+body {
+  background-color: $bgcolor;
+}
+.img-con {
+  // position: relative;
+  width: 100%;
+  height: 30rem;
+}
+
+.card {
+  background-color: $card;
+  height: 60rem;
+  width: 35rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  position: relative;
+
+  &-img {
+    width: 98%;
+    border-radius: 1rem;
+    // position: relative;
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.container {
+  h2 {
+    color: $White;
+    font-size: 2.2rem;
+    margin-top: 2rem;
+  }
+}
+.soft-blue {
+  color: $Soft-blue;
+}
+
+.created-by {
+  display: flex;
+}
+
+.text-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-container {
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cyann {
+  color: $Cyann;
+}
+
+.col-white {
+  color: $White;
+}
+
+.creator-name {
+  color: $White;
+}
+
+// .img-container {
+//   width: 5rem;
+// }
+
+.creator-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100px;
+  border: 1px solid $White;
+  box-sizing: content-box;
+  margin-right: 3rem;
+}
+
+.mb {
+  margin-bottom: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 2.5rem;
+}
+
+.created-by {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  height: 1px;
+  background-color: $line;
+  display: block;
+  width: 100%;
+}
+
+.hover:hover {
+  color: $Cyann;
+  cursor: pointer;
+}

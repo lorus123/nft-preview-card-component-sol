@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-color: #0d192b;
+}
+
+.img-con {
+  width: 100%;
+  height: 30rem;
+}
+
+.card {
+  background-color: #14253d;
+  height: 60rem;
+  width: 35rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.card-img {
+  width: 98%;
+  border-radius: 1rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  background-color: rgba(0, 255, 247, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.container h2 {
+  color: white;
+  font-size: 2.2rem;
+  margin-top: 2rem;
+}
+
+.soft-blue {
+  color: #8bacda;
+}
+
+.created-by {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cyann {
+  color: #00fff7;
+}
+
+.col-white {
+  color: white;
+}
+
+.creator-name {
+  color: white;
+}
+
+.creator-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100px;
+  border: 1px solid white;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-right: 3rem;
+}
+
+.mb {
+  margin-bottom: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 2.5rem;
+}
+
+.created-by {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.line {
+  height: 1px;
+  background-color: #2f415b;
+  display: block;
+  width: 100%;
+}
+
+.hover:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
